@@ -1,0 +1,202 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Chicken Soup",
+        "description": "Chicken soup with hint of lemon",
+        "image": "./assets/img/avocado.jpg",
+        "recipeIngredient": [
+          {
+            "id": 1,
+            "amount": "2",
+            "name": "tbsp olive oil"
+          },
+          {
+            "id": 2,
+            "amount": "1",
+            "name": "onion peeled and chopped"
+          },
+          {
+            "id": 3,
+            "amount": "2",
+            "name": "carrots peeled and chopped"
+          },
+          {
+            "id": 4,
+            "amount": "1 l",
+            "name": "water"
+          },
+          {
+            "id": 5,
+            "amount": "2",
+            "name": "chicken broth cubes"
+          },
+          {
+            "id": 6,
+            "amount": "1",
+            "name": "bay leaf"
+          },
+          {
+            "id": 7,
+            "amount": "1",
+            "name": "peel of one lemon"
+          },
+          {
+            "id": 8,
+            "amount": "1 tsp",
+            "name": "thyme"
+          },
+          {
+            "id": 9,
+            "amount": "5",
+            "name": "potatoes peeled and chopped"
+          },
+          {
+            "id": 10,
+            "amount": "2-3",
+            "name": "chicken fillets chopped"
+          },
+          {
+            "id": 11,
+            "amount": "hint of",
+            "name": "salt and pepper"
+          },
+          {
+            "id": 12,
+            "amount": "if wanted",
+            "name": "french cream"
+          }
+        ],
+        "recipeInstructions": [
+          {
+            "id": 1,
+            "name": "Step 1",
+            "text": "Heat up the oil in pan, add in onion and carrots, fry in mild heat for 10 mins. Add water, broth cube, bay leaf, lemon peel and thyme. Boil 30 mins."
+          },
+          {
+            "id": 2,
+            "name": "Step 2",
+            "text": "Add potatoes and chicken to the soup, boil 15 mins."
+          },
+          {
+            "id": 3,
+            "name": "Step 3",
+            "text": "Season with salt and pepper and if wanted with french cream"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Old fashioned pancakes",
+        "description": "Lovely pancakes",
+        "image": "pancakes.PNG",
+        "recipeIngredient": [
+          {
+            "id": 1,
+            "amount": "1.5 cups",
+            "name": "all purpose flour"
+          },
+          {
+            "id": 2,
+            "amount": "3.5 tsp",
+            "name": "baking powder"
+          },
+          {
+            "id": 3,
+            "amount": "1 tsp",
+            "name": "salt ( or a bit less)"
+          },
+          {
+            "id": 4,
+            "amount": "1 tbsp",
+            "name": "sugar"
+          },
+          {
+            "id": 5,
+            "amount": "1.25 cups",
+            "name": "milk"
+          },
+          {
+            "id": 6,
+            "amount": "1",
+            "name": "egg"
+          },
+          {
+            "id": 7,
+            "amount": " 3 tbsp",
+            "name": "butter melted"
+          }
+        ],
+        "recipeInstructions": [
+          {
+            "id": 1,
+            "name": "Step 1",
+            "text": "Sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butted and mix."
+          },
+          {
+            "id": 2,
+            "name": "Step 2",
+            "text": "Fry in a pancake pan. Enjoy!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Rieska",
+        "description": "Finnish traditional bread",
+        "image": "rieska.PNG",
+        "recipeIngredient": [
+          {
+            "id": 1,
+            "amount": " 2 dl",
+            "name": "cold water"
+          },
+          {
+            "id": 2,
+            "amount": " 4-4.5 dl",
+            "name": "barley flour"
+          },
+          {
+            "id": 3,
+            "amount": " 4-4.5 dl",
+            "name": "barley flour"
+          }
+        ],
+        "recipeInstructions": [
+          {
+            "id": 1,
+            "name": "Step 1",
+            "text": "Mix all ingredients quickly together and bake them 0.5 thick round flat breads."
+          },
+          {
+            "id": 2,
+            "name": "Step 2",
+            "text": "Put some hole with a fork to the breads and bake in the oven for 15 mins in 250-300 °C"
+          }
+        ]
+      },
+      {
+        "name": "kakku",
+        "description": "testi",
+        "image": "",
+        "recipeIngredient": [
+          {
+            "id": 1,
+            "amount": "1",
+            "name": "kakku"
+          }
+        ],
+        "recipeInstructions": [
+          {
+            "id": 1,
+            "name": "step 1",
+            "text": "osta kakku"
+          }
+        ],
+        "id": 4
+      }
+     
+    ]
+  }
+
+      
