@@ -2,24 +2,24 @@
     "recipes": [
       {
         "id": 1,
-        "name": "Chicken Soup",
-        "description": "Chicken soup with hint of lemon",
+        "name": "Avocado",
+        "description": "Avocado & Poached eggs",
         "image": "./assets/img/avocado.jpg",
         "recipeIngredient": [
           {
             "id": 1,
             "amount": "2",
-            "name": "tbsp olive oil"
+            "name": "eggs"
           },
           {
             "id": 2,
             "amount": "1",
-            "name": "onion peeled and chopped"
+            "name": "avocado"
           },
           {
             "id": 3,
             "amount": "2",
-            "name": "carrots peeled and chopped"
+            "name": "vinegar"
           },
           {
             "id": 4,
@@ -29,12 +29,12 @@
           {
             "id": 5,
             "amount": "2",
-            "name": "chicken broth cubes"
+            "name": "bread"
           },
           {
             "id": 6,
             "amount": "1",
-            "name": "bay leaf"
+            "name": "salt & pepper"
           },
           {
             "id": 7,
@@ -49,12 +49,12 @@
           {
             "id": 9,
             "amount": "5",
-            "name": "potatoes peeled and chopped"
+            "name": "peeled avocacado"
           },
           {
             "id": 10,
             "amount": "2-3",
-            "name": "chicken fillets chopped"
+            "name": "sesameseeds"
           },
           {
             "id": 11,
@@ -64,74 +64,64 @@
           {
             "id": 12,
             "amount": "if wanted",
-            "name": "french cream"
+            "name": "cream cheese"
           }
         ],
         "recipeInstructions": [
           {
             "id": 1,
             "name": "Step 1",
-            "text": "Heat up the oil in pan, add in onion and carrots, fry in mild heat for 10 mins. Add water, broth cube, bay leaf, lemon peel and thyme. Boil 30 mins."
+            "text": "Cooking is fun."
           },
           {
             "id": 2,
             "name": "Step 2",
-            "text": "Add potatoes and chicken to the soup, boil 15 mins."
+            "text": "Cooking is even more fun."
           },
           {
             "id": 3,
             "name": "Step 3",
-            "text": "Season with salt and pepper and if wanted with french cream"
+            "text": "I will call myself a chef"
           }
         ]
       },
       {
         "id": 2,
-        "name": "Old fashioned pancakes",
-        "description": "Lovely pancakes",
-        "image": "pancakes.PNG",
+        "name": "Banana Pancakes",
+        "description": "Healthy pancakes",
+        "image": "pancakes.jpg",
         "recipeIngredient": [
           {
             "id": 1,
             "amount": "1.5 cups",
-            "name": "all purpose flour"
+            "name": "oat flakes"
           },
           {
             "id": 2,
-            "amount": "3.5 tsp",
-            "name": "baking powder"
+            "amount": "2",
+            "name": "eggs"
           },
           {
             "id": 3,
-            "amount": "1 tsp",
-            "name": "salt ( or a bit less)"
+            "amount": "2",
+            "name": "ripped bananas"
           },
           {
             "id": 4,
             "amount": "1 tbsp",
-            "name": "sugar"
+            "name": "honey"
           },
           {
             "id": 5,
             "amount": "1.25 cups",
             "name": "milk"
           },
-          {
-            "id": 6,
-            "amount": "1",
-            "name": "egg"
-          },
-          {
-            "id": 7,
-            "amount": " 3 tbsp",
-            "name": "butter melted"
-          }
         ],
         "recipeInstructions": [
           {
             "id": 1,
             "name": "Step 1",
-            "text": "Sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butted and mix."
+            "text": "Sift together the flour, baking powder, salt and hoeny. Make a well in the center and pour in the milk, egg and ripped banana mix."
           },
           {
             "id": 2,
@@ -142,55 +132,55 @@
       },
       {
         "id": 3,
-        "name": "Rieska",
-        "description": "Finnish traditional bread",
-        "image": "rieska.PNG",
+        "name": "Smoothie Bowl",
+        "description": "Smoothie bowl",
+        "image": "bowl.jpg",
         "recipeIngredient": [
           {
             "id": 1,
             "amount": " 2 dl",
-            "name": "cold water"
+            "name": "iced berries"
           },
           {
             "id": 2,
             "amount": " 4-4.5 dl",
-            "name": "barley flour"
+            "name": "coconut milk"
           },
           {
             "id": 3,
-            "amount": " 4-4.5 dl",
-            "name": "barley flour"
+            "amount": "1dl",
+            "name": "soygurt"
           }
         ],
         "recipeInstructions": [
           {
             "id": 1,
             "name": "Step 1",
-            "text": "Mix all ingredients quickly together and bake them 0.5 thick round flat breads."
+            "text": "Mix all ingredients quickly together and blend in a shaker."
           },
           {
             "id": 2,
             "name": "Step 2",
-            "text": "Put some hole with a fork to the breads and bake in the oven for 15 mins in 250-300 °C"
+            "text": "Put into a bowl and decorate as you wish °C"
           }
         ]
       },
       {
-        "name": "kakku",
-        "description": "testi",
-        "image": "",
+        "name": "Chia puuding",
+        "description": "chia",
+        "image": "chia.jpg",
         "recipeIngredient": [
           {
             "id": 1,
             "amount": "1",
-            "name": "kakku"
+            "name": "chia seeds"
           }
         ],
         "recipeInstructions": [
           {
             "id": 1,
             "name": "step 1",
-            "text": "osta kakku"
+            "text": "chia seeds"
           }
         ],
         "id": 4
