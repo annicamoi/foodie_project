@@ -21,7 +21,7 @@ const Styles = styled.div`
   }
 `;
 
-//**following a presentational component = navbar and wrapping inside the Styles to re-declares classes or/and <div's> and the Links*/
+//**following a presentational component = navbar and wrapping inside the Styles to re-declare classes or/and <div's> and the Links*/
 
 export const NavigationBar = () => (
   <Styles>
@@ -43,6 +43,11 @@ export const NavigationBar = () => (
           <Nav.Item>
             <Nav.Link>
               <Link to="/recipes">Recipes</Link>
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link>
+              <Link to="/add_recipe">Add Recipe</Link>
             </Nav.Link>
           </Nav.Item>
         </Nav>

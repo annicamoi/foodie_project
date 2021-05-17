@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel, CarouselItem, Image } from "react-bootstrap";
 
 export const About = () => (
   <div>
@@ -19,37 +18,5 @@ export const About = () => (
       cake liquorice halvah chocolate cake pudding sweet roll. Halvah sweet
       sugar plum chocolate cake.
     </p>
-    <Carousel>
-      <CarouselItem>
-        <img
-          className="d-block w-100"
-          src="./assets/img/avocado.jpg"
-          alt="Avocado"
-        ></img>
-        <Carousel.Caption className="text-black">
-          <h3>Landing page</h3>
-        </Carousel.Caption>
-      </CarouselItem>
-      <CarouselItem>
-        <img
-          className="d-block w-100"
-          src="./assets/img/bowl.jpg"
-          alt="Bowl"
-        ></img>
-        <Carousel.Caption className="text-black">
-          <h3>Recipe page</h3>
-        </Carousel.Caption>
-      </CarouselItem>
-      <CarouselItem>
-        <img
-          className="d-block w-100"
-          src="./assets/img/chia.jpg"
-          alt="Chia"
-        ></img>
-        <Carousel.Caption className="text-black">
-          <h3>Recipe adding page</h3>
-        </Carousel.Caption>
-      </CarouselItem>
-    </Carousel>
   </div>
 );

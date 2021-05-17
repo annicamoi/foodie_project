@@ -5,7 +5,28 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const RecipeForm = () => {
+export const Recipes = () => (
+  <div>
+    <h2>Recipes</h2>
+    <p>
+      Apple pie cake lollipop soufflé. Candy gummi bears tiramisu chocolate bar
+      pastry candy canes. Pudding lollipop donut tiramisu. Chocolate bar cookie
+      cupcake topping tart tootsie roll liquorice tiramisu caramels. Dessert
+      brownie jelly-o jelly beans liquorice. Dessert brownie cookie caramels
+      chupa chups tart jelly-o. Tart macaroon donut pudding. Tiramisu jelly
+      beans bonbon bear claw jelly tootsie roll. Chocolate cake lollipop
+      chocolate dessert cupcake jelly-o jelly beans icing halvah. Chupa chups
+      liquorice icing bonbon apple pie apple pie. Jelly-o icing dragée carrot
+      cake wafer candy canes dragée soufflé cheesecake. Dessert chocolate cake
+      muffin cake jelly-o marshmallow. Toffee croissant candy canes jujubes
+      topping cheesecake caramels oat cake. Cheesecake sesame snaps cupcake
+      sweet roll. Fruitcake gummies cake cookie caramels caramels candy canes
+      tart.
+    </p>
+  </div>
+);
+
+export const RecipeForm = () => {
   const [data, setData] = useState({
     name: "",
     desc: "",
@@ -36,7 +57,7 @@ const RecipeForm = () => {
   };
 
   const submitData = (e) => {
-    axios.post("http://localhost:3001/recipies", data);
+    axios.post("http://localhost:3001/recipes", data);
   };
 
   return (
@@ -102,24 +123,3 @@ const RecipeForm = () => {
 };
 
 export default RecipeForm;
-
-export const Recipes = () => (
-  <div>
-    <h2>Recipes</h2>
-    <p>
-      Apple pie cake lollipop soufflé. Candy gummi bears tiramisu chocolate bar
-      pastry candy canes. Pudding lollipop donut tiramisu. Chocolate bar cookie
-      cupcake topping tart tootsie roll liquorice tiramisu caramels. Dessert
-      brownie jelly-o jelly beans liquorice. Dessert brownie cookie caramels
-      chupa chups tart jelly-o. Tart macaroon donut pudding. Tiramisu jelly
-      beans bonbon bear claw jelly tootsie roll. Chocolate cake lollipop
-      chocolate dessert cupcake jelly-o jelly beans icing halvah. Chupa chups
-      liquorice icing bonbon apple pie apple pie. Jelly-o icing dragée carrot
-      cake wafer candy canes dragée soufflé cheesecake. Dessert chocolate cake
-      muffin cake jelly-o marshmallow. Toffee croissant candy canes jujubes
-      topping cheesecake caramels oat cake. Cheesecake sesame snaps cupcake
-      sweet roll. Fruitcake gummies cake cookie caramels caramels candy canes
-      tart.
-    </p>
-  </div>
-);

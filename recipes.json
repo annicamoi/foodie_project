@@ -4,8 +4,9 @@
         "id": 1,
         "name": "Avocado",
         "description": "Avocado & Poached eggs",
-        "image": "./assets/img/avocado.jpg",
-        "recipeIngredient": [
+        "image": "../assets/img/avocado.jpg",
+        "country_code": "FI",
+        "recipeIngredient":  [
           {
             "id": 1,
             "amount": "2",
@@ -49,7 +50,7 @@
           {
             "id": 9,
             "amount": "5",
-            "name": "peeled avocacado"
+            "name": "peeled avocado"
           },
           {
             "id": 10,
@@ -90,6 +91,7 @@
         "name": "Banana Pancakes",
         "description": "Healthy pancakes",
         "image": "pancakes.jpg",
+        "country_code": "US",
         "recipeIngredient": [
           {
             "id": 1,
@@ -115,7 +117,7 @@
             "id": 5,
             "amount": "1.25 cups",
             "name": "milk"
-          },
+          }
         ],
         "recipeInstructions": [
           {
@@ -135,6 +137,7 @@
         "name": "Smoothie Bowl",
         "description": "Smoothie bowl",
         "image": "bowl.jpg",
+        "country_code": "ID",
         "recipeIngredient": [
           {
             "id": 1,
@@ -148,7 +151,7 @@
           },
           {
             "id": 3,
-            "amount": "1dl",
+            "amount": "1 dl",
             "name": "soygurt"
           }
         ],
@@ -161,7 +164,7 @@
           {
             "id": 2,
             "name": "Step 2",
-            "text": "Put into a bowl and decorate as you wish °C"
+            "text": "Put into a bowl and decorate as you wish"
           }
         ]
       },
@@ -169,6 +172,7 @@
         "name": "Chia puuding",
         "description": "chia",
         "image": "chia.jpg",
+        "country_code": "FI",
         "recipeIngredient": [
           {
             "id": 1,
