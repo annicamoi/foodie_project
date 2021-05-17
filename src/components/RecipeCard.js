@@ -5,9 +5,8 @@ import Image from "react-bootstrap/Image";
 import { useRouteMatch } from "react-router";
 
 import { LinkContainer } from "react-router-bootstrap";
-import { CardImg } from "react-bootstrap";
 
-const RecipeCard = ({ name, desc, img, id, country }) => {
+export const RecipeCard = ({ name, desc, img, id, country }) => {
   let math = useRouteMatch();
   return (
     <Card style={{ width: "18rem" }}>
@@ -15,7 +14,6 @@ const RecipeCard = ({ name, desc, img, id, country }) => {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{desc}</Card.Text>
-        {/* <Image className="flag" src={country.flag} roundedCircle /> */}
         <LinkContainer
           to={{
             pathname: `${match.path}/${name}`,
