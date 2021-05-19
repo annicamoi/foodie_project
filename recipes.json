@@ -90,7 +90,7 @@
         "id": 2,
         "name": "Banana Pancakes",
         "description": "Healthy pancakes",
-        "image": "pancakes.jpg",
+        "image": "../assets/img/pancakes.jpg",
         "country_code": "US",
         "recipeIngredient": [
           {
@@ -136,7 +136,7 @@
         "id": 3,
         "name": "Smoothie Bowl",
         "description": "Smoothie bowl",
-        "image": "bowl.jpg",
+        "image": "../assets/img/bowl.jpg",
         "country_code": "ID",
         "recipeIngredient": [
           {
@@ -171,7 +171,7 @@
       {
         "name": "Chia puuding",
         "description": "chia",
-        "image": "chia.jpg",
+        "image": "../assets/img/chia.jpg",
         "country_code": "FI",
         "recipeIngredient": [
           {

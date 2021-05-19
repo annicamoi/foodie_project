@@ -1,17 +1,16 @@
-import React, { useState, useEffect } from "react";
-import { Switch, Route } from "react-router-dom";
-import RecipiesList from "./components/RecipiesList";
-import RecipeCard from "./components/InstructionsCard";
-import SearchBox from "./components/SearchBox";
+import React from "react";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import RecipeCard from "../components/RecipeCard";
+import RecipeSingle from "../components/RecipeSingle";
+import RecipiesList from "../components/RecipiesList";
 import axios from "axios";
 
 export const Recipes = () => (
   <div>
     <h2>Recipes</h2>
-    <SearchBox />
-    <RecipiesList>
-      <RecipeCard />
-    </RecipiesList>
+    <RecipiesList />
+    <RecipeCard />
+    <RecipeSingle />
     <p>
       Apple pie cake lollipop soufflé. Candy gummi bears tiramisu chocolate bar
       pastry candy canes. Pudding lollipop donut tiramisu. Chocolate bar cookie

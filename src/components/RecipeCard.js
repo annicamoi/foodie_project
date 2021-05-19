@@ -16,7 +16,7 @@ export const RecipeCard = ({ name, desc, img, id, country }) => {
         <Card.Text>{desc}</Card.Text>
         <LinkContainer
           to={{
-            pathname: `${match.path}/${name}`,
+            pathname: `${math.path}/${name}`,
             state: { id: id, country: country },
           }}
         >

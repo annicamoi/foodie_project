@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Recipecard from "./Recipecard";
 import SearchBox from "./SearchBox";
 import { Switch, Route } from "react-router-dom";
-import InstructionsCard from "./InstructionsCard";
+import RecipeCard from "./RecipeCard";
 import Spinner from "react-bootstrap/Spinner";
 
 import axios from "axios";
@@ -36,7 +35,7 @@ const RecipeList = () => {
   const recipesList = filteredRecipes.map((recipe) => {
     return (
       <div>
-        <Recipecard
+        <RecipeCard
           key={recipe.id}
           name={recipe.name}
           image={recipe.image}
@@ -66,7 +65,7 @@ const RecipeList = () => {
           <div className="recipelistlist">{recipesList}</div>
         </Route>
         <Route path="/allRecipes/:id">
-          <InstructionsCard />
+          <RecipeCard />
         </Route>
       </Switch>
     </div>
