@@ -1,3 +1,7 @@
+#### This is a school project of the semester 2 in Business College Helsinki. The application initially is suppose to present recipes from php/heroku backend database and enable adding a recipe. Frontend with react and learning to use react bootstrapping.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
