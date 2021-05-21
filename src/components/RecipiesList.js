@@ -3,6 +3,7 @@ import SearchBox from "./SearchBox";
 import { Switch, Route } from "react-router-dom";
 import RecipeCard from "./RecipeCard";
 import Spinner from "react-bootstrap/Spinner";
+import { recipes } from "../";
 
 import axios from "axios";
 
